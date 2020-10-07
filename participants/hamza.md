@@ -1,11 +1,9 @@
 # Hacktoberfest - Flutter Contribution
 
-Name: Muhammad Hamza
+## Name: Muhammad Hamza
 
-Institution: COMSATS University, Islamabad
+**Github:** @m-hamzashakeel
 
-Quote: Life is a Race...!
-
-Github: m-hamzashakeel
+**Quote:** *If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and five minutes thinking about solutions. ~Einstien*
 
 ---
