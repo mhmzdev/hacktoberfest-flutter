@@ -1,6 +1,4 @@
 # Hacktoberfest2020 - Flutter Developers
-
-<h2 align="center">Flutter App - Hacktoberfest</h2>
 <br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/43790152/95358188-3503ba80-08e2-11eb-8801-079d151727ff.png" width=270 height=500>
@@ -13,6 +11,7 @@
    <img alt="GitHub stars" src="https://img.shields.io/github/stars/m-hamzashakeel/Hacktoberfest-Flutter"></a>
    <img alt="Github license" src="https://img.shields.io/github/license/m-hamzashakeel/Hacktoberfest-Flutter"></a>
 </p>
+<br>
 
 # Welcome to GitHub!
 
@@ -27,6 +26,8 @@
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request with label
 - Star this repository 🌟
+
+<br>
 
 # How to make your first Pull Request
 
