@@ -77,3 +77,16 @@ We wil merge your PR, Thanks for being Patience. 🙏
 
 ## 4. Celebrate - you've done your first pull request!!
 Yay!! Refresh your profile at <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> and see the updates. 🎉
+
+## Author
+
+#### Muhammad Hamza
+[![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
+)](https://www.linkedin.com/in/m-hamzashakeel)
+
+You can also follow my GitHub Profile to stay updated about my latest projects:
+
+[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
+
+If you liked then Star ⭐ the repo & make sure to follow 😇
+Copyright (c) 2020 MUHAMMAD HAMZA
