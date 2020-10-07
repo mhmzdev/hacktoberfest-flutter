@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
-  final contributorsName = ['Hamza', 'Ali', 'Usman'];
+  final contributorsName = [
+    'Muhammad Hamza',
+  ];
 
-  final gitHubUserName = ['m-hamzashakeel', 'ali_dev', 'usmanwaleed'];
+  final gitHubUserName = [
+    'm-hamzashakeel',
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +17,12 @@ class Contributor extends StatelessWidget {
         backgroundColor: Color(0xff9c4668),
         title: Text("Hacktober Fest - Contributors"),
       ),
-      body: ListView.builder(
+      body: ListView.separated(
+          separatorBuilder: (context, index) => Divider(
+                color: Colors.transparent,
+                height: 10,
+              ),
+          padding: const EdgeInsets.all(8.0),
           itemCount: contributorsName.length,
           itemBuilder: (context, index) {
             return CustomListTile(
@@ -33,22 +42,44 @@ class CustomListTile extends StatelessWidget {
       @required this.contributorName});
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
+
     return Container(
-      width: MediaQuery.of(context).size.width * 0.7,
-      height: MediaQuery.of(context).size.height * 0.1,
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+      width: width * 0.7,
+      height: height * 0.15,
       decoration: BoxDecoration(
           color: Colors.white,
-          border: Border.all(color: Color(0xff9c4668), width: 2.0)),
+          borderRadius: BorderRadius.circular(20.0),
+          border: Border.all(color: Color(0xff9c4668), width: 3.0)),
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Muhammad Hamza",
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            contributorName,
+            style: TextStyle(
+                fontSize: height * 0.035,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.5),
+          ),
+          SizedBox(
+            height: height * 0.015,
           ),
           Row(
             children: [
-              Image.asset('assets/github.png'),
-              Text("@m-hamzashakeel")
+              Image.asset(
+                'assets/github.png',
+                height: height * 0.03,
+              ),
+              SizedBox(
+                width: 7,
+              ),
+              Text(
+                contributorGitHubUserName,
+                style: TextStyle(fontSize: height * 0.025),
+              )
             ],
           )
         ],
