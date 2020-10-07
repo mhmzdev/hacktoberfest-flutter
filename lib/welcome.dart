@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hacktoberfest_flutter/contributors.dart';
 
+// No changes or updates are required in this file
 class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
