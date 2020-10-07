@@ -7,7 +7,6 @@ Refresh your app to see the result~
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
-    
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
@@ -55,12 +54,12 @@ class CustomListTile extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
 
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+      padding: const EdgeInsets.symmetric(horizontal: 15.0),
       width: width * 0.7,
       height: height * 0.15,
       decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(20.0),
+          borderRadius: BorderRadius.circular(15.0),
           border: Border.all(color: Color(0xff9c4668), width: 3.0)),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
