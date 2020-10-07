@@ -1,7 +1,11 @@
 # Hacktoberfest2020 - Flutter Developers
 
-Make your first Pull Request and earn a free tee from GitHub!
-
+<h2 align="center">Flutter App - Hacktoberfest</h2>
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/43790152/95358188-3503ba80-08e2-11eb-8801-079d151727ff.png" width=270 height=500>
+<img src="https://user-images.githubusercontent.com/43790152/95359283-66c95100-08e3-11eb-9358-74d26bc32b20.png" width=270 height=500>
+</p>
 
 <p align="center">
    <img alt="GitHub issues" src="https://img.shields.io/github/issues/m-hamzashakeel/Hacktoberfest-Flutter"></a>
@@ -71,4 +75,4 @@ _Do not use special characters in the template above._
 We wil merge your PR, Thanks for being Patience. 🙏
 
 ## 4. Celebrate - you've done your first pull request!!
-Yay!! Refresh your profile at <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> and see your update. 🎉
+Yay!! Refresh your profile at <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> and see the updates. 🎉
