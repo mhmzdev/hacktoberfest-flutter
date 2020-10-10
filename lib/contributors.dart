@@ -1,7 +1,7 @@
 /*
-Add your `Full Name` in contributorsName[]
-Add your `GitHub Username` in gitHubUserName[]
-Refresh your app to see the result~
+Name: Alen Jojo
+GitHub: alenjojo
+Quote: Knowledge is power.
 */
 
 import 'package:flutter/material.dart';
