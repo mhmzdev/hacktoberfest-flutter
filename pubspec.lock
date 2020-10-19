@@ -8,7 +8,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.5.0-nullsafety"
-    version: "2.5.0-nullsafety.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -151,4 +150,5 @@ packages:
     source: hosted
     version: "2.1.0-nullsafety.3"
 sdks:
-  dart: ">=2.10.0-110 <=2.11.0-186.0.dev"
+  dart: ">=2.10.0-110 <2.11.0"
+
