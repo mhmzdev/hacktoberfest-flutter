@@ -70,6 +70,8 @@ GitHub: USERNAME
 Quote: <Any Good Quote>
 ```
 
+If you liked then Star ⭐ the repo & make sure to follow 😇
+
 _Do not use special characters in the template above._
 
 ## 3. Wait for Pull Request to merge
@@ -88,5 +90,4 @@ You can also follow my GitHub Profile to stay updated about my latest projects:
 
 [![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
 
-If you liked then Star ⭐ the repo & make sure to follow 😇
 Copyright (c) 2020 MUHAMMAD HAMZA
