@@ -28,7 +28,8 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
-    'Praneeth Fernando'
+    'Praneeth Fernando',
+    'Hannes Kinnunen'
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -51,7 +52,8 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'zeeshanmahar007',
-    'praneethfdo'
+    'praneethfdo',
+    'Steellow'
   ];
 
   @override
