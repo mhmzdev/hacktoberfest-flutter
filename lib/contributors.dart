@@ -1,7 +1,7 @@
 /*
-Add your `Full Name` in contributorsName[]
-Add your `GitHub Username` in gitHubUserName[]
-Refresh your app to see the result~
+Name: Alen Jojo
+GitHub: alenjojo
+Quote: Knowledge is power.
 */
 
 import 'package:flutter/material.dart';
@@ -11,6 +11,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Alen Jojo'
     'Samrat Khan',
     'Shoaib Ahmed',
     'Janhavi Kulkarni'
@@ -47,6 +48,7 @@ class Contributor extends StatelessWidget {
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'alenjojo'
     'Samrat-Khan',
     'shobu95',
     'Janhavi23'
