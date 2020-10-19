@@ -20,7 +20,7 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya'
     'Amaldev M V',
     'Agus Himawan'
-	  'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
     'Muhammad Zain Qadri'
@@ -28,7 +28,8 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
-    'Praneeth Fernando'
+    'Praneeth Fernando',
+    'Chakshu Salgotra'
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -51,7 +52,8 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'zeeshanmahar007',
-    'praneethfdo'
+    'praneethfdo',
+    'chakshu21'
   ];
 
   @override
