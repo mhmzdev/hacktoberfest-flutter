@@ -7,16 +7,25 @@ Refresh your app to see the result~
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
+  
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
     'London Tran',
+    'Aditya Birangal',
+    'Sai Nitesh',
+    'Muhammad Zeeshan',
+    'Praneeth Fernando'
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
     'LondonTran',
+    'AdityaBirangal',
+    'sainiteshb',
+    'zeeshanmahar007',
+    'praneethfdo'
   ];
 
   @override
