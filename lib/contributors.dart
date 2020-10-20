@@ -1,22 +1,92 @@
 /*
-Add your `Full Name` in contributorsName[]
-Add your `GitHub Username` in gitHubUserName[]
-Refresh your app to see the result~
+Name: Alen Jojo
+GitHub: alenjojo
+Quote: Knowledge is power.
 */
 
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
+
   // < Add your Full Name in the List[] >
   final contributorsName = [
-    'Muhammad Hamza', 'Yusuf Adefolahan',
+    'Muhammad Hamza',
+    'Yusuf Adefolahan',
+    'Muhammad Hamza',
+    'Rajit Deb'
+    'Alen Jojo'
+    'Samrat Khan',
+    'Shoaib Ahmed',
+    'Janhavi Kulkarni'
+    'Arjun Sinha'
+    'Muhideen Mujeeb',
+    'Haris Nazir',
+    'Muhammad Hamza',
+    'Yudi Purwanto',
+    'Muhammad Saif Waheed Raja'
+    'Muhammad Asif Jawaid',
+    'Mayukh Sil',
+    'Muhammad Tabish Khanday',
+    'Ali Karani'
+    'Enzo Danjour'
+    'Amit Verma'
+    'Usama Ejaz',
+    'AbuBakar Sheikh',
+    'Laraib Noor',
+    'Rishabh Negi',    
+    'Antoni Wijaya'
+    'Amaldev M V',
+    'Agus Himawan'
+	  'Tusar Ranjan Mahapatra',
+    'Habeel Hashmi',
+    'Rithik Bhandari'
+    'Muhammad Zain Qadri'
+    'London Tran',
+    'Aditya Birangal',
+    'Sai Nitesh',
+    'Muhammad Zeeshan',
+    'Praneeth Fernando'
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
-    'm-hamzashakeel', 'sanxy',
+    'm-hamzashakeel',
+    'sanxy',
+    'rajitdeb'
+    'alenjojo'
+    'Samrat-Khan',
+    'shobu95',
+    'Janhavi23'
+    'ryuukenshi'
+    'Mujhtech',
+    'HarisNazir',
+    'm-hamzashakeel',
+    'zhiephie',
+    'SafuRaja7'
+    'aasif1297',
+    'mayukhsil',
+    'mtabishk',
+    'alikarani'
+    'enzodanjour'
+    'amitverma-cf'
+    'UsamaEjaz0',
+    'onymousproduktions',
+    'LaraibNoor',
+    'Rishabh-Negi',
+    'AntoniKwok'
+    'AmaldevAD',
+	  'Agushm',
+    'Tusar6701',
+    'Habeel786',
+    'rithik-dev',
+    'imuhammadzain',
+    'LondonTran',
+    'AdityaBirangal',
+    'sainiteshb',
+    'zeeshanmahar007',
+    'praneethfdo'
   ];
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
