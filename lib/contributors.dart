@@ -11,11 +11,24 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
-    'Alen Jojo'
+    'Oussama Bouchikhi',
+    'Adeoye Ayomide',
+    'Muhammad Akif Farhan',
+    'Zohaib Munir',
+    'Muhammad Hamza',
+    'Fatima Shirazi',
+    'Eqra Khattak',
+    'Muhammad Kumail',
+    'Muhammad Hamza',
+    'Haseeb Ali Sajid',
+    'Yusuf Adefolahan',
+    'Muhammad Hamza',
+    'Rajit Deb',
+    'Alen Jojo',
     'Samrat Khan',
     'Shoaib Ahmed',
-    'Janhavi Kulkarni'
-    'Arjun Sinha'
+    'Janhavi Kulkarni',
+    'Arjun Sinha',
     'Muhideen Mujeeb',
     'Haris Nazir',
     'Muhammad Hamza',
@@ -24,14 +37,14 @@ class Contributor extends StatelessWidget {
     'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
-    'Ali Karani'
-    'Enzo Danjour'
+    'Ali Karani',
+    'Enzo Danjour',
     'Amit Verma'
     'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
     'Rishabh Negi',    
-    'Antoni Wijaya'
+    'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
 	  'Tusar Ranjan Mahapatra',
@@ -43,17 +56,30 @@ class Contributor extends StatelessWidget {
     'Sai Nitesh',
     'Muhammad Zeeshan',
     'Praneeth Fernando',
+
     'Rida Ayaz'
+
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'oussamabouchikhi'
+    'Ayomilotunde',
+    'akifarhan',
+    'Zohaibb-m', 
+    'm-hamzashakeel',
+    'iamfaatima',
+    'eqrakhattak',
+    'mkumail1',
+    'haseebalisajid',
+    'sanxy',
+    'rajitdeb'
     'alenjojo'
     'Samrat-Khan',
     'shobu95',
-    'Janhavi23'
-    'ryuukenshi'
+    'Janhavi23',
+    'ryuukenshi',
     'Mujhtech',
     'HarisNazir',
     'm-hamzashakeel',
@@ -63,8 +89,8 @@ class Contributor extends StatelessWidget {
     'mayukhsil',
     'mtabishk',
     'alikarani'
-    'enzodanjour'
-    'amitverma-cf'
+    'enzodanjour',
+    'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
@@ -82,6 +108,7 @@ class Contributor extends StatelessWidget {
     'zeeshanmahar007',
     'praneethfdo',
     'ridaayaz'
+
   ];
   
   @override
