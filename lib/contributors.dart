@@ -11,6 +11,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Oussama Bouchikhi',
     'Adeoye Ayomide',
     'Muhammad Akif Farhan',
     'Zohaib Munir',
@@ -60,6 +61,7 @@ class Contributor extends StatelessWidget {
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'oussamabouchikhi'
     'Ayomilotunde',
     'akifarhan',
     'Zohaibb-m', 
