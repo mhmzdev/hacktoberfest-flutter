@@ -7,10 +7,10 @@ Quote: Knowledge is power.
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
-
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Keshav Kaushik',
     'Aman Srivastava',
     'Apoorv Maheshwari',
     'Oussama Bouchikhi',
@@ -36,24 +36,24 @@ class Contributor extends StatelessWidget {
     'Muhammad Hamza',
     'Yudi Purwanto',
     'Muhammad Saif Waheed Raja'
-    'Muhammad Asif Jawaid',
+        'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
     'Enzo Danjour',
     'Amit Verma'
-    'Usama Ejaz',
+        'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
-    'Rishabh Negi',    
+    'Rishabh Negi',
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-	  'Tusar Ranjan Mahapatra',
+        'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-    'Muhammad Zain Qadri'
-    'London Tran',
+        'Muhammad Zain Qadri'
+        'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -63,20 +63,21 @@ class Contributor extends StatelessWidget {
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'keshkaush',
     'aman1210',
     'Apoorv-cloud',
-    'oussamabouchikhi'
+    'oussamabouchikhi',
     'Ayomilotunde',
     'akifarhan',
-    'Zohaibb-m', 
+    'Zohaibb-m',
     'm-hamzashakeel',
     'iamfaatima',
     'eqrakhattak',
     'mkumail1',
     'haseebalisajid',
     'sanxy',
-    'rajitdeb'
-    'alenjojo'
+    'rajitdeb',
+    'alenjojo',
     'Samrat-Khan',
     'shobu95',
     'Janhavi23',
@@ -85,20 +86,20 @@ class Contributor extends StatelessWidget {
     'HarisNazir',
     'm-hamzashakeel',
     'zhiephie',
-    'SafuRaja7'
+    'SafuRaja7',
     'aasif1297',
     'mayukhsil',
     'mtabishk',
-    'alikarani'
+    'alikarani',
     'enzodanjour',
     'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
     'Rishabh-Negi',
-    'AntoniKwok'
+    'AntoniKwok',
     'AmaldevAD',
-	  'Agushm',
+    'Agushm',
     'Tusar6701',
     'Habeel786',
     'rithik-dev',
@@ -109,7 +110,7 @@ class Contributor extends StatelessWidget {
     'zeeshanmahar007',
     'praneethfdo',
   ];
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
