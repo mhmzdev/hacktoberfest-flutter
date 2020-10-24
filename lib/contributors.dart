@@ -7,7 +7,6 @@ Quote: Knowledge is power.
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
-
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
@@ -35,32 +34,33 @@ class Contributor extends StatelessWidget {
     'Haris Nazir',
     'Muhammad Hamza',
     'Yudi Purwanto',
-    'Muhammad Saif Waheed Raja'
+    'Muhammad Saif Waheed Raja',
     'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
     'Enzo Danjour',
-    'Amit Verma'
+    'Amit Verma',
     'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
-    'Rishabh Negi',    
+    'Rishabh Negi',
     'Antoni Wijaya',
     'Amaldev M V',
-    'Agus Himawan'
+    'Agus Himawan',
     'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
-    'Rithik Bhandari'
-    'Muhammad Zain Qadri'
+    'Rithik Bhandari',
+    'Muhammad Zain Qadri',
     'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
-    'Muhammad Zeeshan',    
-    'Dada Abdulrasheed'
-    'Hemant'
-    'Chakshu Salgotra'
-    'Hannes Kinnunen'
+    'Muhammad Zeeshan',
+    'Dada Abdulrasheed',
+    'Hemant',
+    'Chakshu Salgotra',
+    'Hannes Kinnunen',
+    'Gunvant Chandratre',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -68,18 +68,20 @@ class Contributor extends StatelessWidget {
     'm-hamzashakeel',
     'aman1210',
     'Apoorv-cloud',
-    'oussamabouchikhi'
+    'oussamabouchikhi',
     'Ayomilotunde',
     'akifarhan',
-    'Zohaibb-m', 
+    'Zohaibb-m',
     'm-hamzashakeel',
     'iamfaatima',
     'eqrakhattak',
     'mkumail1',
+    'm-hamzashakeel',
     'haseebalisajid',
     'sanxy',
-    'rajitdeb'
-    'alenjojo'
+    'm-hamzashakeel',
+    'rajitdeb',
+    'alenjojo',
     'Samrat-Khan',
     'shobu95',
     'Janhavi23',
@@ -88,20 +90,20 @@ class Contributor extends StatelessWidget {
     'HarisNazir',
     'm-hamzashakeel',
     'zhiephie',
-    'SafuRaja7'
+    'SafuRaja7',
     'aasif1297',
     'mayukhsil',
     'mtabishk',
-    'alikarani'
+    'alikarani',
     'enzodanjour',
     'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
     'Rishabh-Negi',
-    'AntoniKwok'
+    'AntoniKwok',
     'AmaldevAD',
-	  'Agushm',
+    'Agushm',
     'Tusar6701',
     'Habeel786',
     'rithik-dev',
@@ -109,13 +111,14 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
-    'zeeshanmahar007',    
-    'iamhabee'
-    'Hemant72'
-    'chakshu21'
-    'Steellow'
+    'zeeshanmahar007',
+    'iamhabee',
+    'Hemant72',
+    'chakshu21',
+    'Steellow',
+    'GunvantGMC',
   ];
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -144,9 +147,7 @@ class Contributor extends StatelessWidget {
 class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
-  CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
+  CustomListTile({@required this.contributorGitHubUserName, @required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -167,9 +168,7 @@ class CustomListTile extends StatelessWidget {
           Text(
             contributorName,
             style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
+                fontSize: height * 0.035, fontWeight: FontWeight.bold, letterSpacing: 1.5),
           ),
           SizedBox(
             height: height * 0.015,
