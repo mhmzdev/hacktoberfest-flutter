@@ -1,7 +1,7 @@
 /*
-Add your `Full Name` in contributorsName[]
-Add your `GitHub Username` in gitHubUserName[]
-Refresh your app to see the result~
+Name: Alen Jojo
+GitHub: alenjojo
+Quote: Knowledge is power.
 */
 
 import 'package:flutter/material.dart';
@@ -11,7 +11,26 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
-    'Arjun Sinha'
+    'Aman Srivastava',
+    'Apoorv Maheshwari',
+    'Oussama Bouchikhi',
+    'Adeoye Ayomide',
+    'Muhammad Akif Farhan',
+    'Zohaib Munir',
+    'Muhammad Hamza',
+    'Fatima Shirazi',
+    'Eqra Khattak',
+    'Muhammad Kumail',
+    'Muhammad Hamza',
+    'Haseeb Ali Sajid',
+    'Yusuf Adefolahan',
+    'Muhammad Hamza',
+    'Rajit Deb',
+    'Alen Jojo',
+    'Samrat Khan',
+    'Shoaib Ahmed',
+    'Janhavi Kulkarni',
+    'Arjun Sinha',
     'Muhideen Mujeeb',
     'Haris Nazir',
     'Muhammad Hamza',
@@ -20,17 +39,17 @@ class Contributor extends StatelessWidget {
     'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
-    'Ali Karani'
-    'Enzo Danjour'
+    'Ali Karani',
+    'Enzo Danjour',
     'Amit Verma'
     'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
     'Rishabh Negi',    
-    'Antoni Wijaya'
+    'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-	  'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
     'Muhammad Zain Qadri'
@@ -40,12 +59,32 @@ class Contributor extends StatelessWidget {
     'Muhammad Zeeshan',
     'Praneeth Fernando'
     'Hemant'
+    'Praneeth Fernando',
+    'Chakshu Salgotra'
+    'Hannes Kinnunen'
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
-    'ryuukenshi'
+    'aman1210',
+    'Apoorv-cloud',
+    'oussamabouchikhi'
+    'Ayomilotunde',
+    'akifarhan',
+    'Zohaibb-m', 
+    'm-hamzashakeel',
+    'iamfaatima',
+    'eqrakhattak',
+    'mkumail1',
+    'haseebalisajid',
+    'sanxy',
+    'rajitdeb'
+    'alenjojo'
+    'Samrat-Khan',
+    'shobu95',
+    'Janhavi23',
+    'ryuukenshi',
     'Mujhtech',
     'HarisNazir',
     'm-hamzashakeel',
@@ -55,8 +94,8 @@ class Contributor extends StatelessWidget {
     'mayukhsil',
     'mtabishk',
     'alikarani'
-    'enzodanjour'
-    'amitverma-cf'
+    'enzodanjour',
+    'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
@@ -74,6 +113,9 @@ class Contributor extends StatelessWidget {
     'zeeshanmahar007',
     'praneethfdo'
     'Hemant72'
+    'praneethfdo',
+    'chakshu21'
+    'Steellow'
   ];
   
   @override
