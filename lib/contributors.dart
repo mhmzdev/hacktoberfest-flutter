@@ -49,7 +49,7 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-	  'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
     'Muhammad Zain Qadri'
@@ -58,6 +58,7 @@ class Contributor extends StatelessWidget {
     'Sai Nitesh',
     'Muhammad Zeeshan',
     'Praneeth Fernando',
+    'Chakshu Salgotra'
     'Hannes Kinnunen'
   ];
 
@@ -109,6 +110,7 @@ class Contributor extends StatelessWidget {
     'sainiteshb',
     'zeeshanmahar007',
     'praneethfdo',
+    'chakshu21'
     'Steellow'
   ];
   
