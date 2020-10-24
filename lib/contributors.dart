@@ -57,6 +57,8 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
+    'Praneeth Fernando'
+    'Hemant'
     'Praneeth Fernando',
     'Chakshu Salgotra'
     'Hannes Kinnunen'
@@ -109,6 +111,8 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'zeeshanmahar007',
+    'praneethfdo'
+    'Hemant72'
     'praneethfdo',
     'chakshu21'
     'Steellow'
