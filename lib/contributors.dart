@@ -27,6 +27,7 @@ class Contributor extends StatelessWidget {
     'Muhammad Hamza',
     'Rajit Deb',
     'Alen Jojo',
+    'Ajay Bairwa',
     'Samrat Khan',
     'Shoaib Ahmed',
     'Janhavi Kulkarni',
@@ -67,6 +68,7 @@ class Contributor extends StatelessWidget {
   final gitHubUserName = [
     'm-hamzashakeel',
     'aman1210',
+    'bairwa25',
     'Apoorv-cloud',
     'oussamabouchikhi'
     'Ayomilotunde',
