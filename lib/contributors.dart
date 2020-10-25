@@ -56,6 +56,9 @@ class Contributor extends StatelessWidget {
     'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
+    'Muhammad Zeeshan',
+    'Praneeth Fernando'
+    'Abdullateef Olawale Sarafadeen'
     'Praneeth Fernando',
     'Ahmad Khan',
     'Md Zaid Ansari',
@@ -112,7 +115,8 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
-    'zeeshanmahar007',
+    'praneethfdo',
+    'olaabdul',
     'praneethfdo',
     'rmahmadkhan',
     'razorcalhn',
