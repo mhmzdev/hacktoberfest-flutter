@@ -56,12 +56,14 @@ class Contributor extends StatelessWidget {
     'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
-    'Md Zaid Ansari'
+    'Praneeth Fernando',
+    'Ahmad Khan',
+    'Md Zaid Ansari',
     'Muhammad Zeeshan',    
-    'Dada Abdulrasheed'
-    'Hemant'
-    'Chakshu Salgotra'
-    'Hannes Kinnunen'
+    'Dada Abdulrasheed',
+    'Hemant',
+    'Chakshu Salgotra',
+    'Hannes Kinnunen',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -110,12 +112,15 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
-    'razorcalhn'
+    'zeeshanmahar007',
+    'praneethfdo',
+    'rmahmadkhan',
+    'razorcalhn',
     'zeeshanmahar007',    
-    'iamhabee'
-    'Hemant72'
-    'chakshu21'
-    'Steellow'
+    'iamhabee',
+    'Hemant72',
+    'chakshu21',
+    'Steellow',
   ];
   
   @override
