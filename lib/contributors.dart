@@ -60,6 +60,7 @@ class Contributor extends StatelessWidget {
     'Praneeth Fernando'
     'Abdullateef Olawale Sarafadeen'
     'Praneeth Fernando',
+    'Malavika Sreekumar',
     'Rida Ayaz',
 	  'Nim Chathu',
     'Ahmad Khan',
@@ -118,6 +119,7 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'praneethfdo',
+    'malavikasreekumar',
     'ridaayaz',
 	  'Nimesha1996',
     'olaabdul',
