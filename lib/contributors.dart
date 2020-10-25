@@ -60,6 +60,7 @@ class Contributor extends StatelessWidget {
     'Praneeth Fernando'
     'Abdullateef Olawale Sarafadeen'
     'Praneeth Fernando',
+    'Rida Ayaz',
 	  'Nim Chathu',
     'Ahmad Khan',
     'Md Zaid Ansari',
@@ -117,6 +118,7 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'praneethfdo',
+    'ridaayaz',
 	  'Nimesha1996',
     'olaabdul',
     'praneethfdo',
