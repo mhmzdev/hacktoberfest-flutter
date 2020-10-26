@@ -10,6 +10,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Keshav Kaushik',
     'Aman Srivastava',
     'Apoorv Maheshwari',
     'Oussama Bouchikhi',
@@ -35,7 +36,7 @@ class Contributor extends StatelessWidget {
     'Muhammad Hamza',
     'Yudi Purwanto',
     'Muhammad Saif Waheed Raja'
-     'Muhammad Asif Jawaid',
+        'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
@@ -76,6 +77,7 @@ class Contributor extends StatelessWidget {
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'keshkaush',
     'aman1210',
     'Apoorv-cloud',
     'oussamabouchikhi'
@@ -88,9 +90,9 @@ class Contributor extends StatelessWidget {
     'mkumail1',
     'haseebalisajid',
     'sanxy',
-    'rajitdeb'
-        'alenjojo'
-        'Samrat-Khan',
+    'rajitdeb',
+    'alenjojo',
+    'Samrat-Khan',
     'shobu95',
     'Janhavi23',
     'ryuukenshi',
@@ -98,19 +100,19 @@ class Contributor extends StatelessWidget {
     'HarisNazir',
     'm-hamzashakeel',
     'zhiephie',
-    'SafuRaja7'
-        'aasif1297',
+    'SafuRaja7',
+    'aasif1297',
     'mayukhsil',
     'mtabishk',
-    'alikarani'
-        'enzodanjour',
+    'alikarani',
+    'enzodanjour',
     'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
     'Rishabh-Negi',
-    'AntoniKwok'
-        'AmaldevAD',
+    'AntoniKwok',
+    'AmaldevAD',
     'Agushm',
     'Tusar6701',
     'Habeel786',
