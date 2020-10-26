@@ -35,7 +35,7 @@ class Contributor extends StatelessWidget {
     'Muhammad Hamza',
     'Yudi Purwanto',
     'Muhammad Saif Waheed Raja'
-        'Muhammad Asif Jawaid',
+     'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
@@ -48,7 +48,7 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-        'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
         'Muhammad Zain Qadri'
@@ -56,8 +56,21 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
+    'Praneeth Fernando'
+    'Abdullateef Olawale Sarafadeen'
     'Praneeth Fernando',
     'Harshal Shree',
+    'Sohan Kathait',
+    'Malavika Sreekumar',
+    'Rida Ayaz',
+	  'Nim Chathu',
+    'Ahmad Khan',
+    'Md Zaid Ansari',
+    'Muhammad Zeeshan',    
+    'Dada Abdulrasheed',
+    'Hemant',
+    'Chakshu Salgotra',
+    'Hannes Kinnunen',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -106,9 +119,21 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
-    'zeeshanmahar007',
     'praneethfdo',
     'harshalshree',
+    'Thesohan',
+    'malavikasreekumar',
+    'ridaayaz',
+	  'Nimesha1996',
+    'olaabdul',
+    'praneethfdo',
+    'rmahmadkhan',
+    'razorcalhn',
+    'zeeshanmahar007',    
+    'iamhabee',
+    'Hemant72',
+    'chakshu21',
+    'Steellow',
   ];
 
   @override
