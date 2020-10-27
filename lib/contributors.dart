@@ -10,6 +10,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Keshav Kaushik',
     'Aman Srivastava',
     'Apoorv Maheshwari',
     'Oussama Bouchikhi',
@@ -26,6 +27,7 @@ class Contributor extends StatelessWidget {
     'Muhammad Hamza',
     'Rajit Deb',
     'Alen Jojo',
+    'Ajay Bairwa',
     'Samrat Khan',
     'Shoaib Ahmed',
     'Janhavi Kulkarni',
@@ -34,31 +36,35 @@ class Contributor extends StatelessWidget {
     'Haris Nazir',
     'Muhammad Hamza',
     'Yudi Purwanto',
-    'Muhammad Saif Waheed Raja'
-        'Muhammad Asif Jawaid',
+    'Muhammad Saif Waheed Raja',
+    'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
     'Enzo Danjour',
-    'Amit Verma'
-        'Usama Ejaz',
+    'Amit Verma',
+    'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
     'Rishabh Negi',
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-        'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-        'Muhammad Zain Qadri'
-        'London Tran',
+    'Muhammad Zain Qadri'
+    'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
-    'Praneeth Fernando'
-        'Abdullateef Olawale Sarafadeen'
-        'Praneeth Fernando',
+    'Akanksha Singh',
+    'Praneeth Fernando',
+    'Abdullateef Olawale Sarafadeen',
+    'Praneeth Fernando',
+    'Kamalpreet Kaur',
+    'Harshal Shree',
+    'Sohan Kathait',
     'Malavika Sreekumar',
     'Rida Ayaz',
     'Nim Chathu',
@@ -70,26 +76,32 @@ class Contributor extends StatelessWidget {
     'Chakshu Salgotra',
     'Hannes Kinnunen',
     'Matheus Cavalcante Fernandes'
+    'Dipanshu Kalra',
+    'Gunvant Chandratre',
+    'Hari Prasad',
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'keshkaush',
     'aman1210',
+    'bairwa25',
     'Apoorv-cloud',
-    'oussamabouchikhi'
-        'Ayomilotunde',
+    'oussamabouchikhi',
+    'Ayomilotunde',
     'akifarhan',
     'Zohaibb-m',
     'm-hamzashakeel',
     'iamfaatima',
     'eqrakhattak',
     'mkumail1',
+    'm-hamzashakeel',
     'haseebalisajid',
     'sanxy',
-    'rajitdeb'
-        'alenjojo'
-        'Samrat-Khan',
+    'rajitdeb',
+    'alenjojo',
+    'Samrat-Khan',
     'shobu95',
     'Janhavi23',
     'ryuukenshi',
@@ -97,19 +109,19 @@ class Contributor extends StatelessWidget {
     'HarisNazir',
     'm-hamzashakeel',
     'zhiephie',
-    'SafuRaja7'
-        'aasif1297',
+    'SafuRaja7',
+    'aasif1297',
     'mayukhsil',
     'mtabishk',
-    'alikarani'
-        'enzodanjour',
+    'alikarani',
+    'enzodanjour',
     'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
     'Rishabh-Negi',
-    'AntoniKwok'
-        'AmaldevAD',
+    'AntoniKwok',
+    'AmaldevAD',
     'Agushm',
     'Tusar6701',
     'Habeel786',
@@ -118,7 +130,11 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
+    'Akanksha1212',
     'praneethfdo',
+    'kamal-kaur04',
+    'harshalshree',
+    'Thesohan',
     'malavikasreekumar',
     'ridaayaz',
     'Nimesha1996',
@@ -132,6 +148,9 @@ class Contributor extends StatelessWidget {
     'chakshu21',
     'Steellow',
     'matheusc3m',
+    'DipanshuKalra',
+    'GunvantGMC',
+    'hariprasad1003',
   ];
 
   @override
@@ -162,9 +181,7 @@ class Contributor extends StatelessWidget {
 class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
-  CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
+  CustomListTile({@required this.contributorGitHubUserName, @required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -185,9 +202,7 @@ class CustomListTile extends StatelessWidget {
           Text(
             contributorName,
             style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
+                fontSize: height * 0.035, fontWeight: FontWeight.bold, letterSpacing: 1.5),
           ),
           SizedBox(
             height: height * 0.015,
