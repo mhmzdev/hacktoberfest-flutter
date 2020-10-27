@@ -60,6 +60,7 @@ class Contributor extends StatelessWidget {
     'Praneeth Fernando'
     'Abdullateef Olawale Sarafadeen'
     'Praneeth Fernando',
+    'Kamalpreet Kaur',
     'Harshal Shree',
     'Sohan Kathait',
     'Malavika Sreekumar',
@@ -81,7 +82,7 @@ class Contributor extends StatelessWidget {
     'aman1210',
     'Apoorv-cloud',
     'oussamabouchikhi'
-        'Ayomilotunde',
+     'Ayomilotunde',
     'akifarhan',
     'Zohaibb-m',
     'm-hamzashakeel',
@@ -122,6 +123,7 @@ class Contributor extends StatelessWidget {
     'AdityaBirangal',
     'sainiteshb',
     'praneethfdo',
+    'kamal-kaur04',
     'harshalshree',
     'Thesohan',
     'malavikasreekumar',
