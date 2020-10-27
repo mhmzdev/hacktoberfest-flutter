@@ -75,6 +75,7 @@ class Contributor extends StatelessWidget {
     'Hemant',
     'Chakshu Salgotra',
     'Hannes Kinnunen',
+    'Maximilian Flechtner',
     'Matheus Cavalcante Fernandes'
     'Dipanshu Kalra',
     'Gunvant Chandratre',
@@ -147,6 +148,7 @@ class Contributor extends StatelessWidget {
     'Hemant72',
     'chakshu21',
     'Steellow',
+    'MaxiTechno1ogy',
     'matheusc3m',
     'DipanshuKalra',
     'GunvantGMC',
