@@ -35,25 +35,25 @@ class Contributor extends StatelessWidget {
     'Haris Nazir',
     'Muhammad Hamza',
     'Yudi Purwanto',
-    'Muhammad Saif Waheed Raja'
-        'Muhammad Asif Jawaid',
+    'Muhammad Saif Waheed Raja',
+    'Muhammad Asif Jawaid',
     'Mayukh Sil',
     'Muhammad Tabish Khanday',
     'Ali Karani',
     'Enzo Danjour',
-    'Amit Verma'
-        'Usama Ejaz',
+    'Amit Verma',
+    'Usama Ejaz',
     'AbuBakar Sheikh',
     'Laraib Noor',
     'Rishabh Negi',
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-        'Tusar Ranjan Mahapatra',
+     'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-        'Muhammad Zain Qadri'
-        'London Tran',
+    'Muhammad Zain Qadri'
+    'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -74,6 +74,7 @@ class Contributor extends StatelessWidget {
     'Hemant',
     'Chakshu Salgotra',
     'Hannes Kinnunen',
+    'Gunvant Chandratre',
     'Hari Prasad',
   ];
 
@@ -91,6 +92,7 @@ class Contributor extends StatelessWidget {
     'iamfaatima',
     'eqrakhattak',
     'mkumail1',
+    'm-hamzashakeel',
     'haseebalisajid',
     'sanxy',
     'rajitdeb',
@@ -141,6 +143,7 @@ class Contributor extends StatelessWidget {
     'Hemant72',
     'chakshu21',
     'Steellow',
+    'GunvantGMC',
     'hariprasad1003',
   ];
 
@@ -172,9 +175,7 @@ class Contributor extends StatelessWidget {
 class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
-  CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
+  CustomListTile({@required this.contributorGitHubUserName, @required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -195,9 +196,7 @@ class CustomListTile extends StatelessWidget {
           Text(
             contributorName,
             style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
+                fontSize: height * 0.035, fontWeight: FontWeight.bold, letterSpacing: 1.5),
           ),
           SizedBox(
             height: height * 0.015,
