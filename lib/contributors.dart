@@ -10,6 +10,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Keshav Kaushik',
     'Aman Srivastava',
     'Apoorv Maheshwari',
     'Oussama Bouchikhi',
@@ -56,20 +57,34 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
-    'Dada Abdulrasheed'
-        'Hemant'
-        'Chakshu Salgotra'
-        'Hannes Kinnunen',
-    'Akanksha Singh'
+    'Akanksha Singh',
+    'Praneeth Fernando',
+    'Abdullateef Olawale Sarafadeen',
+    'Praneeth Fernando',
+    'Kamalpreet Kaur',
+    'Harshal Shree',
+    'Sohan Kathait',
+    'Malavika Sreekumar',
+    'Rida Ayaz',
+	  'Nim Chathu',
+    'Ahmad Khan',
+    'Md Zaid Ansari',
+    'Muhammad Zeeshan',    
+    'Dada Abdulrasheed',
+    'Hemant',
+    'Chakshu Salgotra',
+    'Hannes Kinnunen',
+    'Hari Prasad',
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'keshkaush',
     'aman1210',
     'Apoorv-cloud',
-    'oussamabouchikhi'
-        'Ayomilotunde',
+    'oussamabouchikhi',
+    'Ayomilotunde',
     'akifarhan',
     'Zohaibb-m',
     'm-hamzashakeel',
@@ -78,9 +93,9 @@ class Contributor extends StatelessWidget {
     'mkumail1',
     'haseebalisajid',
     'sanxy',
-    'rajitdeb'
-        'alenjojo'
-        'Samrat-Khan',
+    'rajitdeb',
+    'alenjojo',
+    'Samrat-Khan',
     'shobu95',
     'Janhavi23',
     'ryuukenshi',
@@ -88,19 +103,19 @@ class Contributor extends StatelessWidget {
     'HarisNazir',
     'm-hamzashakeel',
     'zhiephie',
-    'SafuRaja7'
-        'aasif1297',
+    'SafuRaja7',
+    'aasif1297',
     'mayukhsil',
     'mtabishk',
-    'alikarani'
-        'enzodanjour',
+    'alikarani',
+    'enzodanjour',
     'amitverma-cf',
     'UsamaEjaz0',
     'onymousproduktions',
     'LaraibNoor',
     'Rishabh-Negi',
-    'AntoniKwok'
-        'AmaldevAD',
+    'AntoniKwok',
+    'AmaldevAD',
     'Agushm',
     'Tusar6701',
     'Habeel786',
@@ -109,12 +124,24 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
-    'zeeshanmahar007',
-    'iamhabee'
-        'Hemant72'
-        'chakshu21'
-        'Steellow',
-    'Akanksha1212'
+    'Akanksha1212',
+    'praneethfdo',
+    'kamal-kaur04',
+    'harshalshree',
+    'Thesohan',
+    'malavikasreekumar',
+    'ridaayaz',
+	  'Nimesha1996',
+    'olaabdul',
+    'praneethfdo',
+    'rmahmadkhan',
+    'razorcalhn',
+    'zeeshanmahar007',    
+    'iamhabee',
+    'Hemant72',
+    'chakshu21',
+    'Steellow',
+    'hariprasad1003',
   ];
 
   @override
