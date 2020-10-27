@@ -81,6 +81,7 @@ class Contributor extends StatelessWidget {
     'Dipanshu Kalra',
     'Gunvant Chandratre',
     'Hari Prasad',
+    'Lorenzo Pieri',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -155,6 +156,7 @@ class Contributor extends StatelessWidget {
     'DipanshuKalra',
     'GunvantGMC',
     'hariprasad1003',
+    'LRNZ09',
   ];
 
   @override
