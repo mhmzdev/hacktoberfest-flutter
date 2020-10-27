@@ -49,7 +49,7 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-    'Tusar Ranjan Mahapatra',
+        'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
         'Muhammad Zain Qadri'
@@ -57,8 +57,9 @@ class Contributor extends StatelessWidget {
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
-    'Praneeth Fernando'
-    'Abdullateef Olawale Sarafadeen'
+    'Akanksha Singh',
+    'Praneeth Fernando',
+    'Abdullateef Olawale Sarafadeen',
     'Praneeth Fernando',
     'Kamalpreet Kaur',
     'Harshal Shree',
@@ -82,8 +83,8 @@ class Contributor extends StatelessWidget {
     'keshkaush',
     'aman1210',
     'Apoorv-cloud',
-    'oussamabouchikhi'
-     'Ayomilotunde',
+    'oussamabouchikhi',
+    'Ayomilotunde',
     'akifarhan',
     'Zohaibb-m',
     'm-hamzashakeel',
@@ -123,6 +124,7 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
+    'Akanksha1212',
     'praneethfdo',
     'kamal-kaur04',
     'harshalshree',
