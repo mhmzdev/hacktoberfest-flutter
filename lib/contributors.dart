@@ -157,6 +157,16 @@ class Contributor extends StatelessWidget {
     'hariprasad1003',
   ];
 
+  // < Add your Full Name in the List[] >
+  final contributorsName = [
+    'Ahmad Khan',
+  ];
+
+  // < Add your GitHub Username in the List[] >
+  final gitHubUserName = [
+    'rmahmadkhan',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
