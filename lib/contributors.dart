@@ -82,6 +82,7 @@ class Contributor extends StatelessWidget {
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',
+    'Rodolfo Dantas de Oliveira Bezerra',
     'Muhammad Hassan Tariq',
     'Ahmad Khan',
   ];
@@ -159,6 +160,7 @@ class Contributor extends StatelessWidget {
     'GunvantGMC',
     'hariprasad1003',
     'LRNZ09',
+    'denpufa',
     'iamhsntariq05',
     'rmahmadkhan',
   ];
