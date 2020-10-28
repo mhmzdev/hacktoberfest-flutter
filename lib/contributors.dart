@@ -1,17 +1,167 @@
 /*
-Add your `Full Name` in contributorsName[]
-Add your `GitHub Username` in gitHubUserName[]
-Refresh your app to see the result~
+Name: Alen Jojo
+GitHub: alenjojo
+Quote: Knowledge is power.
 */
 
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
-  final contributorsName = ['Muhammad Hamza', 'Muhammad Hassan Tariq'];
+  final contributorsName = [
+    'Muhammad Hamza',
+    'Keshav Kaushik',
+    'Aman Srivastava',
+    'Apoorv Maheshwari',
+    'Oussama Bouchikhi',
+    'Adeoye Ayomide',
+    'Muhammad Akif Farhan',
+    'Zohaib Munir',
+    'Muhammad Hamza',
+    'Fatima Shirazi',
+    'Eqra Khattak',
+    'Muhammad Kumail',
+    'Muhammad Hamza',
+    'Haseeb Ali Sajid',
+    'Yusuf Adefolahan',
+    'Muhammad Hamza',
+    'Rajit Deb',
+    'Alen Jojo',
+    'Ajay Bairwa',
+    'Samrat Khan',
+    'Shoaib Ahmed',
+    'Janhavi Kulkarni',
+    'Arjun Sinha',
+    'Muhideen Mujeeb',
+    'Haris Nazir',
+    'Muhammad Hamza',
+    'Yudi Purwanto',
+    'Muhammad Saif Waheed Raja',
+    'Muhammad Asif Jawaid',
+    'Mayukh Sil',
+    'Muhammad Tabish Khanday',
+    'Ali Karani',
+    'Enzo Danjour',
+    'Amit Verma',
+    'Usama Ejaz',
+    'AbuBakar Sheikh',
+    'Laraib Noor',
+    'Rishabh Negi',
+    'Antoni Wijaya',
+    'Amaldev M V',
+    'Agus Himawan'
+    'Tusar Ranjan Mahapatra',
+    'Habeel Hashmi',
+    'Rithik Bhandari'
+    'Muhammad Zain Qadri'
+    'London Tran',
+    'Aditya Birangal',
+    'Sai Nitesh',
+    'Muhammad Zeeshan',
+    'Akanksha Singh',
+    'Praneeth Fernando',
+    'Abdullateef Olawale Sarafadeen',
+    'Praneeth Fernando',
+    'Kamalpreet Kaur',
+    'Harshal Shree',
+    'Sohan Kathait',
+    'Malavika Sreekumar',
+    'Rida Ayaz',
+    'Nim Chathu',
+    'Ahmad Khan',
+    'Md Zaid Ansari',
+    'Muhammad Zeeshan',
+    'Dada Abdulrasheed',
+    'Hemant',
+    'Chakshu Salgotra',
+    'Hannes Kinnunen',
+    'Ram Gunasekaran A',
+    'Maximilian Flechtner',
+    'Matheus Cavalcante Fernandes'
+    'Dipanshu Kalra',
+    'Gunvant Chandratre',
+    'Hari Prasad',
+    'Lorenzo Pieri',
+    'Muhammad Hassan Tariq',
+    'Ahmad Khan',
+  ];
 
   // < Add your GitHub Username in the List[] >
-  final gitHubUserName = ['m-hamzashakeel', 'iamhsntariq05'];
+  final gitHubUserName = [
+    'm-hamzashakeel',
+    'keshkaush',
+    'aman1210',
+    'bairwa25',
+    'Apoorv-cloud',
+    'oussamabouchikhi',
+    'Ayomilotunde',
+    'akifarhan',
+    'Zohaibb-m',
+    'm-hamzashakeel',
+    'iamfaatima',
+    'eqrakhattak',
+    'mkumail1',
+    'm-hamzashakeel',
+    'haseebalisajid',
+    'sanxy',
+    'rajitdeb',
+    'alenjojo',
+    'Samrat-Khan',
+    'shobu95',
+    'Janhavi23',
+    'ryuukenshi',
+    'Mujhtech',
+    'HarisNazir',
+    'm-hamzashakeel',
+    'zhiephie',
+    'SafuRaja7',
+    'aasif1297',
+    'mayukhsil',
+    'mtabishk',
+    'alikarani',
+    'enzodanjour',
+    'amitverma-cf',
+    'UsamaEjaz0',
+    'onymousproduktions',
+    'LaraibNoor',
+    'Rishabh-Negi',
+    'AntoniKwok',
+    'AmaldevAD',
+    'Agushm',
+    'Tusar6701',
+    'Habeel786',
+    'rithik-dev',
+    'imuhammadzain',
+    'LondonTran',
+    'AdityaBirangal',
+    'sainiteshb',
+    'Akanksha1212',
+    'praneethfdo',
+    'kamal-kaur04',
+    'harshalshree',
+    'Thesohan',
+    'malavikasreekumar',
+    'ridaayaz',
+    'Nimesha1996',
+    'olaabdul',
+    'praneethfdo',
+    'rmahmadkhan',
+    'razorcalhn',
+    'zeeshanmahar007',
+    'iamhabee',
+    'Hemant72',
+    'chakshu21',
+    'Steellow',
+    'ramcalm',
+    'MaxiTechno1ogy',
+    'matheusc3m',
+    'DipanshuKalra',
+    'GunvantGMC',
+    'hariprasad1003',
+    'LRNZ09',
+    'iamhsntariq05',
+    'rmahmadkhan',
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -41,9 +191,7 @@ class Contributor extends StatelessWidget {
 class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
-  CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
+  CustomListTile({@required this.contributorGitHubUserName, @required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -64,9 +212,7 @@ class CustomListTile extends StatelessWidget {
           Text(
             contributorName,
             style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
+                fontSize: height * 0.035, fontWeight: FontWeight.bold, letterSpacing: 1.5),
           ),
           SizedBox(
             height: height * 0.015,
