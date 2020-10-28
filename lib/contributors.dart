@@ -1,9 +1,3 @@
-/*
-Name: Alen Jojo
-GitHub: alenjojo
-Quote: Knowledge is power.
-*/
-
 import 'package:flutter/material.dart';
 
 class Contributor extends StatelessWidget {
@@ -50,11 +44,11 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-        'Tusar Ranjan Mahapatra',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-        'Muhammad Zain Qadri'
-        'London Tran',
+    'Muhammad Zain Qadri'
+    'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -78,7 +72,7 @@ class Contributor extends StatelessWidget {
     'Ram Gunasekaran A',
     'Maximilian Flechtner',
     'Matheus Cavalcante Fernandes'
-        'Dipanshu Kalra',
+    'Dipanshu Kalra',
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',

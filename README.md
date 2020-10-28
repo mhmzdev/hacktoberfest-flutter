@@ -15,23 +15,23 @@
 
 # Welcome to GitHub!
 
-## This project is perfect for your first pull request
+### This project is perfect for your first pull request
 
-#### Instructions
+#### 📝 Instructions
 
 - Fork this Repository using the button at the top
 - Clone your forked repository to your pc ( git clone "url from clone option.)
 - Create a new branch for your modifications (ie. `git checkout -b new-user`)
-- Edit the project `.dart` files as per instructions below
 - Add your files (`git add .`), commit (`git commit -m "added myself"`) and push (`git push origin new-user`)
 - Create a pull request with label
 - Star this repository 🌟
+- Follow me for more projects 💙
 
 <br>
 
 # How to make your first Pull Request
 
-#### Instructions for making the changes
+#### 📜 Instructions for making the changes
 ## 1. Editing the Code
 
 Add your `Full name` and `GitHub Username` in the `list[]` given in `lib/contributors.dart`
@@ -39,16 +39,18 @@ Add your `Full name` and `GitHub Username` in the `list[]` given in `lib/contrib
 *Note: Don't remove or delete already added attendee, in case you did something like this PR won't be accepted :)*
 
 Example Code:
-```
+```dart
 
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Your Name',
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'your-github-username',
   ];
 
 ```
@@ -56,9 +58,9 @@ Example Code:
 
 ## 2. Add your profile information
 
-Create a markdown file in your folder following the convention `participant/<YOUR-USERNAME>.md`.
+Create a markdown file in your folder following the convention `participant/<GitHub-Username>.md`.
 
-```
+```dart
 participant/<YOUR-USERNAME>.md/
 ```
 
@@ -74,7 +76,7 @@ If you liked then Star ⭐ the repo & make sure to follow 😇
 
 _Do not use special characters in the template above._
 
-## 3. Wait for Pull Request to merge
+## 3. Wait for Pull Request to be Labelled
 We wil merge your PR, Thanks for being Patience. 🙏
 
 ## 4. Celebrate - you've done your first pull request!!
@@ -86,7 +88,7 @@ Yay!! Refresh your profile at <a href="https://hacktoberfest.digitalocean.com/">
 [![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
 )](https://www.linkedin.com/in/m-hamzashakeel)
 
-You can also follow my GitHub Profile to stay updated about my latest projects:
+👉 You can also follow my GitHub Profile to stay updated about my latest projects:
 
 [![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
 
