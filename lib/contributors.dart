@@ -50,11 +50,11 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-    'Tusar Ranjan Mahapatra',
+        'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-    'Muhammad Zain Qadri'
-    'London Tran',
+        'Muhammad Zain Qadri'
+        'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -78,13 +78,14 @@ class Contributor extends StatelessWidget {
     'Ram Gunasekaran A',
     'Maximilian Flechtner',
     'Matheus Cavalcante Fernandes'
-    'Dipanshu Kalra',
+        'Dipanshu Kalra',
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',
     'Rodolfo Dantas de Oliveira Bezerra',
     'Muhammad Hassan Tariq',
     'Ahmad Khan',
+    'Sunday Malgwi',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -163,6 +164,7 @@ class Contributor extends StatelessWidget {
     'denpufa',
     'iamhsntariq05',
     'rmahmadkhan',
+    'malgwi',
   ];
 
   @override
@@ -193,7 +195,9 @@ class Contributor extends StatelessWidget {
 class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
-  CustomListTile({@required this.contributorGitHubUserName, @required this.contributorName});
+  CustomListTile(
+      {@required this.contributorGitHubUserName,
+      @required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
@@ -214,7 +218,9 @@ class CustomListTile extends StatelessWidget {
           Text(
             contributorName,
             style: TextStyle(
-                fontSize: height * 0.035, fontWeight: FontWeight.bold, letterSpacing: 1.5),
+                fontSize: height * 0.035,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 1.5),
           ),
           SizedBox(
             height: height * 0.015,
