@@ -82,6 +82,7 @@ class Contributor extends StatelessWidget {
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',
+    'Rodolfo Dantas de Oliveira Bezerra',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -157,6 +158,7 @@ class Contributor extends StatelessWidget {
     'GunvantGMC',
     'hariprasad1003',
     'LRNZ09',
+    'denpufa',
   ];
 
   // < Add your Full Name in the List[] >
