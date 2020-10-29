@@ -40,11 +40,11 @@ class Contributor extends StatelessWidget {
     'Antoni Wijaya',
     'Amaldev M V',
     'Agus Himawan'
-    'Tusar Ranjan Mahapatra',
+        'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
     'Rithik Bhandari'
-    'Muhammad Zain Qadri'
-    'London Tran',
+        'Muhammad Zain Qadri'
+        'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -68,7 +68,7 @@ class Contributor extends StatelessWidget {
     'Ram Gunasekaran A',
     'Maximilian Flechtner',
     'Matheus Cavalcante Fernandes'
-    'Dipanshu Kalra',
+        'Dipanshu Kalra',
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',
@@ -76,6 +76,7 @@ class Contributor extends StatelessWidget {
     'Muhammad Hassan Tariq',
     'Ahmad Khan',
     'Sunday Malgwi',
+    'Sanjay Soni',
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -152,6 +153,7 @@ class Contributor extends StatelessWidget {
     'iamhsntariq05',
     'rmahmadkhan',
     'malgwi',
+    'imSanjaySoni',
   ];
 
   @override
