@@ -82,7 +82,8 @@ class Contributor extends StatelessWidget {
     'Jean Nshuti',
     'Suresh Sharma',
     'Michael Dadzie',
-    'Zwe Mun Htun'
+    'Zwe Mun Htun',
+    'Rosalia Steffi Longjam'
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -162,7 +163,8 @@ class Contributor extends StatelessWidget {
     'imSanjaySoni',
     'cucusgeek99',
     'michaeldadzie',
-    'zwe-mun-htun'
+    'zwe-mun-htun',
+    'RosaliaSL'
   ];
 
   @override
