@@ -5,6 +5,7 @@ class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
   final contributorsName = [
     'Muhammad Hamza',
+    'Garima Chandna',
     'Keshav Kaushik',
     'Muhammad Saif Waheed Raja',
     'Eqra Khattak',
@@ -83,12 +84,14 @@ class Contributor extends StatelessWidget {
     'Jean Nshuti',
     'Suresh Sharma',
     'Michael Dadzie',
-    'Zwe Mun Htun'
+    'Zwe Mun Htun',
+    'Srishti Vashistha'
   ];
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
     'm-hamzashakeel',
+    'garimachandna',
     'keshkaush',
     'SafuRaja7',
     'eqrakhattak',
@@ -163,7 +166,8 @@ class Contributor extends StatelessWidget {
     'imSanjaySoni',
     'cucusgeek99',
     'michaeldadzie',
-    'zwe-mun-htun'
+    'zwe-mun-htun',
+    'srishtiv27'
   ];
 
   @override
