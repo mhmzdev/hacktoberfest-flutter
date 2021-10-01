@@ -84,7 +84,10 @@ class Contributor extends StatelessWidget {
     'Suresh Sharma',
     'Michael Dadzie',
     'Zwe Mun Htun',
+
+    'Manas Ranjan Munda',
     'Srishti Vashistha'
+
   ];
 
   // < Add your GitHub Username in the List[] >
@@ -166,7 +169,11 @@ class Contributor extends StatelessWidget {
     'cucusgeek99',
     'michaeldadzie',
     'zwe-mun-htun',
+
+    'manas1410',
+
     'srishtiv27'
+
   ];
 
   @override
