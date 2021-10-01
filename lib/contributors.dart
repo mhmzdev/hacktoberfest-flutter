@@ -172,12 +172,13 @@ class Contributor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff183d5d),
+      backgroundColor: const Color(0xff183d5d),
       appBar: AppBar(
-        backgroundColor: Color(0xff9c4668),
+        backgroundColor: const Color(0xff9c4668),
         title: Text("Hacktober Fest - Contributors"),
       ),
       body: ListView.separated(
+          physics: BouncingScrollPhysics(),
           separatorBuilder: (context, index) => Divider(
                 color: Colors.transparent,
                 height: 10,
@@ -212,7 +213,7 @@ class CustomListTile extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(15.0),
-          border: Border.all(color: Color(0xff9c4668), width: 3.0)),
+          border: Border.all(color: const Color(0xff9c4668), width: 3.0)),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
