@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        accentColor: Color(0xff9c4668)
+        colorScheme:
+            ColorScheme.fromSwatch().copyWith(secondary: Color(0xff9c4668)),
       ),
       home: Welcome(),
     );
