@@ -84,6 +84,7 @@ class Contributor extends StatelessWidget {
     'Suresh Sharma',
     'Michael Dadzie',
     'Zwe Mun Htun',
+    'Saksham Garg',
     'Srishti Vashistha'
   ];
 
@@ -166,6 +167,7 @@ class Contributor extends StatelessWidget {
     'cucusgeek99',
     'michaeldadzie',
     'zwe-mun-htun',
+    'SAKSHAM-SUDO',
     'srishtiv27'
   ];
 
