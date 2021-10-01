@@ -209,7 +209,7 @@ class CustomListTile extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(15.0),
-          border: Border.all(color: Color(0xff9c4668), width: 3.0)),
+          border: Border.all(color: const Color(0xff9c4668), width: 3.0)),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
