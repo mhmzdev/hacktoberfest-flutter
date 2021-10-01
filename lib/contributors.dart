@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Contributor extends StatelessWidget {
   // < Add your Full Name in the List[] >
@@ -202,44 +203,52 @@ class CustomListTile extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 15.0),
-      width: width * 0.7,
-      height: height * 0.15,
-      decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(15.0),
-          border: Border.all(color: const Color(0xff9c4668), width: 3.0)),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            contributorName,
-            style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
-          ),
-          SizedBox(
-            height: height * 0.015,
-          ),
-          Row(
-            children: [
-              Image.asset(
-                'assets/github.png',
-                height: height * 0.03,
-              ),
-              SizedBox(
-                width: 7,
-              ),
-              Text(
-                contributorGitHubUserName,
-                style: TextStyle(fontSize: height * 0.025),
-              )
-            ],
-          )
-        ],
+    Future _launchURL(_url) async => await canLaunch(_url)
+        ? await launch(_url)
+        : throw 'Could not launch $_url';
+    return GestureDetector(
+      onTap: () async {
+        await _launchURL("https://www.github.com/$contributorGitHubUserName");
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 15.0),
+        width: width * 0.7,
+        height: height * 0.15,
+        decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(15.0),
+            border: Border.all(color: const Color(0xff9c4668), width: 3.0)),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              contributorName,
+              style: TextStyle(
+                  fontSize: height * 0.035,
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 1.5),
+            ),
+            SizedBox(
+              height: height * 0.015,
+            ),
+            Row(
+              children: [
+                Image.asset(
+                  'assets/github.png',
+                  height: height * 0.03,
+                ),
+                SizedBox(
+                  width: 7,
+                ),
+                Text(
+                  contributorGitHubUserName,
+                  style: TextStyle(fontSize: height * 0.025),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
