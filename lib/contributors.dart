@@ -168,12 +168,13 @@ class Contributor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff183d5d),
+      backgroundColor: const Color(0xff183d5d),
       appBar: AppBar(
-        backgroundColor: Color(0xff9c4668),
+        backgroundColor: const Color(0xff9c4668),
         title: Text("Hacktober Fest - Contributors"),
       ),
       body: ListView.separated(
+          physics: BouncingScrollPhysics(),
           separatorBuilder: (context, index) => Divider(
                 color: Colors.transparent,
                 height: 10,
