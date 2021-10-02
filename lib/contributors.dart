@@ -3,10 +3,10 @@ import 'package:hacktoberfest_flutter/animations/bottom_animation.dart';
 import 'package:hacktoberfest_flutter/util/restart_app.dart';
 import 'package:hacktoberfest_flutter/widgets/custom_listTile.dart';
 
-class Contributor extends StatelessWidget {
+class Contributors extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
-  final contributorsName = [
+  final contributorNames = [
     'Dev Adnani',
     'Muhammad Hamza',
     'Garima Chandna',
@@ -97,7 +97,7 @@ class Contributor extends StatelessWidget {
     'Uzair Leo'
   ];
 
-  final gitHubUserName = [
+  final gitHubUserNames = [
     'Dev-Adnani',
     'mhmzdev',
     'garimachandna',
@@ -187,7 +187,8 @@ class Contributor extends StatelessWidget {
     '',
     '',
     'uzairleo'
-  ]; //added some empty items to list as some of contributors forget to add their username too
+  ];
+  //added some empty items to the above list as some of contributors forget to add their username too
 
   @override
   Widget build(BuildContext context) {
@@ -223,22 +224,46 @@ class Contributor extends StatelessWidget {
             ),
           ),
         ],
-        body: ListView.separated(
-          physics: BouncingScrollPhysics(),
-          padding: const EdgeInsets.all(8.0),
-          separatorBuilder: (context, index) =>
-              Divider(color: Colors.transparent),
-          itemCount: contributorsName.length,
-          itemBuilder: (context, index) {
-            return WidgetAnimator(
-              child: CustomListTile(
-                contributorGitHubUserName: gitHubUserName[index],
-                contributorName: contributorsName[index],
+        body: gitHubUserNames.length == contributorNames.length
+            ? ListView.separated(
+                physics: BouncingScrollPhysics(),
+                padding: const EdgeInsets.all(8.0),
+                separatorBuilder: (context, index) =>
+                    Divider(color: Colors.transparent),
+                itemCount: contributorNames.length,
+                itemBuilder: (context, index) {
+                  return WidgetAnimator(
+                    child: CustomListTile(
+                      contributorGitHubUserName: gitHubUserNames[index],
+                      contributorName: contributorNames[index],
+                    ),
+                  );
+                },
+              )
+            : Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 18.0, vertical: 80),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "you forgot to one of required data field i:e username/contributorName",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Color(0xfff74700),
+                          fontSize: 14.0,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            );
-          },
-        ),
       ),
     );
   }
 }
+
+class Contributor {}

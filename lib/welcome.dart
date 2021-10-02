@@ -69,7 +69,7 @@ class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (_) => Contributor(),
+                  builder: (_) => Contributors(),
                 ),
               );
             }
