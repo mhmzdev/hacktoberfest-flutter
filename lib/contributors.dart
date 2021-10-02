@@ -4,13 +4,8 @@ import 'package:hacktoberfest_flutter/util/restart_app.dart';
 import 'package:hacktoberfest_flutter/widgets/custom_listTile.dart';
 
 class Contributor extends StatelessWidget {
-  // Add your Full Name in this list
+  // Add your Full Name in this Map
   // Please do not remove any other name :)
-  // final contributorsName = [
-
-  // ];
-
-  // final gitHubUserName = [];
   final Map<String, String> contributors = {
     'mhmzdev': 'Muhammad Hamza',
     'keshkaush': 'Garima Chandna',
@@ -100,8 +95,6 @@ class Contributor extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // print(contributorsName.length);
-    // print(gitHubUserName.length);
     return Scaffold(
       backgroundColor: Colors.white,
       body: NestedScrollView(
