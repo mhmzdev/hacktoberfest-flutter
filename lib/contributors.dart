@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:hacktoberfest_flutter/animations/bottom_animation.dart';
 import 'package:hacktoberfest_flutter/util/restart_app.dart';
 import 'package:hacktoberfest_flutter/widgets/custom_listTile.dart';
+import 'package:flip_card/flip_card.dart';
 
 class Contributors extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
   final contributorNames = [
+    'Uzair Leo',
     'Dev Adnani',
     'Muhammad Hamza',
     'Garima Chandna',
@@ -94,10 +96,10 @@ class Contributors extends StatelessWidget {
     'Neha Ajith',
     'Naveena Ramesh Vardhini ',
     'Muhammad Hilmy AL Jauzy',
-    'Uzair Leo'
   ];
 
   final gitHubUserNames = [
+    'uzairleo',
     'Dev-Adnani',
     'mhmzdev',
     'garimachandna',
@@ -186,7 +188,6 @@ class Contributors extends StatelessWidget {
     '',
     '',
     '',
-    'uzairleo'
   ];
   //added some empty items to the above list as some of contributors forget to add their username too
 
@@ -233,11 +234,17 @@ class Contributors extends StatelessWidget {
                 itemCount: contributorNames.length,
                 itemBuilder: (context, index) {
                   return WidgetAnimator(
-                    child: CustomListTile(
+                      child: FlipCard(
+                    direction: FlipDirection.HORIZONTAL, // default
+                    front: CustomListTileFront(
                       contributorGitHubUserName: gitHubUserNames[index],
                       contributorName: contributorNames[index],
                     ),
-                  );
+                    back: CustomListTileBack(
+                      contributorGitHubUserName: gitHubUserNames[index],
+                      contributorName: contributorNames[index],
+                    ),
+                  ));
                 },
               )
             : Padding(
@@ -265,5 +272,3 @@ class Contributors extends StatelessWidget {
     );
   }
 }
-
-class Contributor {}
