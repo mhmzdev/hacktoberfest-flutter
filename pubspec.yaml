@@ -33,6 +33,8 @@ dependencies:
   simple_animations: ^1.1.3
   page_transition: ^1.1.4
 
+  url_launcher:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

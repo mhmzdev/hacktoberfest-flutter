@@ -210,9 +210,11 @@ class Contributor extends StatelessWidget {
             ),
           ),
         ],
-        body: ListView.builder(
+        body: ListView.separated(
           physics: BouncingScrollPhysics(),
           padding: const EdgeInsets.all(8.0),
+          separatorBuilder: (context, index) =>
+              Divider(color: Colors.transparent),
           itemCount: contributorsName.length,
           itemBuilder: (context, index) {
             return WidgetAnimator(
