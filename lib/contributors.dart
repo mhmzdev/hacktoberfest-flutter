@@ -92,8 +92,9 @@ class Contributor extends StatelessWidget {
     'Zwe Mun Htun',
     'Srishti Vashistha',
     'Neha Ajith',
-    'Naveena Ramesh Vardhini '
-        'Muhammad Hilmy AL Jauzy'
+    'Naveena Ramesh Vardhini ',
+    'Muhammad Hilmy AL Jauzy',
+    'Uzair Leo'
   ];
 
   final gitHubUserName = [
@@ -181,11 +182,12 @@ class Contributor extends StatelessWidget {
     'naveeramesh',
     'hilmykun'
         '',
-    ''
-        '',
     '',
     '',
-  ];
+    '',
+    '',
+    'uzairleo'
+  ]; //added some empty items to list as some of contributors forget to add their username too
 
   @override
   Widget build(BuildContext context) {
@@ -228,8 +230,6 @@ class Contributor extends StatelessWidget {
               Divider(color: Colors.transparent),
           itemCount: contributorsName.length,
           itemBuilder: (context, index) {
-            print("LENGTH===> ${gitHubUserName.length}");
-            print("LENGTH===> ${contributorsName.length}");
             return WidgetAnimator(
               child: CustomListTile(
                 contributorGitHubUserName: gitHubUserName[index],
