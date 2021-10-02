@@ -49,7 +49,7 @@ Example Code:
 
   // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
-    'm-hamzashakeel',
+    'mhmzdev',
     'your-github-username',
   ];
 
@@ -86,10 +86,10 @@ Yay!! Refresh your profile at <a href="https://hacktoberfest.digitalocean.com/">
 
 #### Muhammad Hamza
 [![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
-)](https://www.linkedin.com/in/m-hamzashakeel)
+)](https://www.linkedin.com/in/mhmzdev)
 
 👉 You can also follow my GitHub Profile to stay updated about my latest projects:
 
-[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
+[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/mhmzdev)
 
 Copyright (c) 2020 MUHAMMAD HAMZA
