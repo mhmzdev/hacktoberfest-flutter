@@ -93,7 +93,7 @@ class Contributor extends StatelessWidget {
     'Srishti Vashistha',
     'Neha Ajith',
     'Naveena Ramesh Vardhini '
-    'Muhammad Hilmy AL Jauzy'
+        'Muhammad Hilmy AL Jauzy'
   ];
 
   final gitHubUserName = [
@@ -178,8 +178,13 @@ class Contributor extends StatelessWidget {
     'zwe-mun-htun',
     'srishtiv27',
     'neha-ajith',
-    'naveeramesh'
-        'hilmykun'
+    'naveeramesh',
+    'hilmykun'
+        '',
+    ''
+        '',
+    '',
+    '',
   ];
 
   @override
@@ -223,6 +228,8 @@ class Contributor extends StatelessWidget {
               Divider(color: Colors.transparent),
           itemCount: contributorsName.length,
           itemBuilder: (context, index) {
+            print("LENGTH===> ${gitHubUserName.length}");
+            print("LENGTH===> ${contributorsName.length}");
             return WidgetAnimator(
               child: CustomListTile(
                 contributorGitHubUserName: gitHubUserName[index],
