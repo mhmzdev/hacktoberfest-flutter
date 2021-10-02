@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
     return RestartWidget(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: 'Hacktoberfest 2021',
         theme: ThemeData(
           primaryColor: Color(0xfff74700),
           accentColor: const Color(0xfff74700),
