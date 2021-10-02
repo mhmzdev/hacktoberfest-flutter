@@ -8,6 +8,7 @@ class Contributor extends StatelessWidget {
   // Please do not remove any other name :)
   final contributorsName = [
     'Muhammad Hamza',
+    'Danushan Ravendran',
     'Garima Chandna',
     'Keshav Kaushik',
     'Prateek SU',
@@ -91,11 +92,13 @@ class Contributor extends StatelessWidget {
     'Zwe Mun Htun',
     'Srishti Vashistha',
     'Neha Ajith',
-    'Naveena Ramesh Vardhini '
+    'Naveena Ramesh Vardhini ',
+    'Danushan Ravendran',
   ];
 
   final gitHubUserName = [
     'mhmzdev',
+    'danushan99',
     'garimachandna',
     'keshkaush',
     'prateekmedia',
@@ -175,7 +178,8 @@ class Contributor extends StatelessWidget {
     'zwe-mun-htun',
     'srishtiv27',
     'neha-ajith',
-    'naveeramesh'
+    'naveeramesh',
+    'danushan99',
   ];
 
   @override
