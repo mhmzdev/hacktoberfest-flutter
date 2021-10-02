@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hacktoberfest_flutter/animations/bottom_animation.dart';
+import 'package:hacktoberfest_flutter/util/restart_app.dart';
+import 'package:hacktoberfest_flutter/widgets/custom_listTile.dart';
 
 class Contributor extends StatelessWidget {
-  // < Add your Full Name in the List[] >
+  // Add your Full Name in this list
+  // Please do not remove any other name :)
   final contributorsName = [
     'Muhammad Hamza',
     'Garima Chandna',
@@ -41,12 +45,12 @@ class Contributor extends StatelessWidget {
     'Rishabh Negi',
     'Antoni Wijaya',
     'Amaldev M V',
-    'Agus Himawan'
-        'Tusar Ranjan Mahapatra',
+    'Agus Himawan',
+    'Tusar Ranjan Mahapatra',
     'Habeel Hashmi',
-    'Rithik Bhandari'
-        'Muhammad Zain Qadri'
-        'London Tran',
+    'Rithik Bhandari',
+    'Muhammad Zain Qadri',
+    'London Tran',
     'Aditya Birangal',
     'Sai Nitesh',
     'Muhammad Zeeshan',
@@ -69,8 +73,8 @@ class Contributor extends StatelessWidget {
     'Hannes Kinnunen',
     'Ram Gunasekaran A',
     'Maximilian Flechtner',
-    'Matheus Cavalcante Fernandes'
-        'Dipanshu Kalra',
+    'Matheus Cavalcante Fernandes',
+    'Dipanshu Kalra',
     'Gunvant Chandratre',
     'Hari Prasad',
     'Lorenzo Pieri',
@@ -86,12 +90,11 @@ class Contributor extends StatelessWidget {
     'Michael Dadzie',
     'Zwe Mun Htun',
     'Srishti Vashistha',
-    'Neha Ajith'
+    'Neha Ajith',
   ];
 
-  // < Add your GitHub Username in the List[] >
   final gitHubUserName = [
-    'm-hamzashakeel',
+    'mhmzdev',
     'garimachandna',
     'keshkaush',
     'prateekmedia',
@@ -170,84 +173,56 @@ class Contributor extends StatelessWidget {
     'michaeldadzie',
     'zwe-mun-htun',
     'srishtiv27',
-    'neha-ajith'
+    'neha-ajith',
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xff183d5d),
-      appBar: AppBar(
-        backgroundColor: const Color(0xff9c4668),
-        title: Text("Hacktober Fest - Contributors"),
-      ),
-      body: ListView.separated(
-          physics: BouncingScrollPhysics(),
-          separatorBuilder: (context, index) => Divider(
-                color: Colors.transparent,
-                height: 10,
+      backgroundColor: Colors.white,
+      body: NestedScrollView(
+        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) =>
+            <Widget>[
+          SliverAppBar(
+            backgroundColor: Colors.white,
+            leading: BackButton(
+              color: Color(0xfff74700),
+              onPressed: () => RestartWidget.restartApp(context),
+            ),
+            pinned: true,
+            expandedHeight: 220.0,
+            flexibleSpace: FlexibleSpaceBar(
+              centerTitle: true,
+              title: Text(
+                "Hacktoberfest Contributors",
+                style: TextStyle(
+                  color: Color(0xfff74700),
+                  fontSize: 17.0,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
+              background: Center(
+                child: Image.asset(
+                  'assets/banner2021.png',
+                  height: 180.0,
+                ),
+              ),
+            ),
+          ),
+        ],
+        body: ListView.builder(
+          physics: BouncingScrollPhysics(),
           padding: const EdgeInsets.all(8.0),
           itemCount: contributorsName.length,
           itemBuilder: (context, index) {
-            return CustomListTile(
-              contributorGitHubUserName: gitHubUserName[index],
-              contributorName: contributorsName[index],
+            return WidgetAnimator(
+              child: CustomListTile(
+                contributorGitHubUserName: gitHubUserName[index],
+                contributorName: contributorsName[index],
+              ),
             );
-          }),
-    );
-  }
-}
-
-class CustomListTile extends StatelessWidget {
-  final String contributorName;
-  final String contributorGitHubUserName;
-  CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
-  @override
-  Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
-
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 15.0),
-      width: width * 0.7,
-      height: height * 0.15,
-      decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(15.0),
-          border: Border.all(color: const Color(0xff9c4668), width: 3.0)),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            contributorName,
-            style: TextStyle(
-                fontSize: height * 0.035,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 1.5),
-          ),
-          SizedBox(
-            height: height * 0.015,
-          ),
-          Row(
-            children: [
-              Image.asset(
-                'assets/github.png',
-                height: height * 0.03,
-              ),
-              SizedBox(
-                width: 7,
-              ),
-              Text(
-                contributorGitHubUserName,
-                style: TextStyle(fontSize: height * 0.025),
-              )
-            ],
-          )
-        ],
+          },
+        ),
       ),
     );
   }
