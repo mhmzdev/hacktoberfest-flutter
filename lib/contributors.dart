@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:hacktoberfest_flutter/animations/bottom_animation.dart';
 import 'package:hacktoberfest_flutter/util/restart_app.dart';
