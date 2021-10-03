@@ -91,9 +91,10 @@ class Contributor extends StatelessWidget {
     'Zwe Mun Htun',
     'Srishti Vashistha',
     'Neha Ajith',
+    'Hemang Sinha',
     'Naveena Ramesh Vardhini ',
     'Muhammad Hilmy AL Jauzy',
-    'Pranav Nair'
+    'Pranav Nair',
   ];
 
   final gitHubUserName = [
@@ -180,6 +181,7 @@ class Contributor extends StatelessWidget {
     'zwe-mun-htun',
     'srishtiv27',
     'neha-ajith',
+    'hemangdtu',
     'naveeramesh',
     'hilmykun',
     'PranavNair01',
