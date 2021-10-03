@@ -36,24 +36,20 @@
 #### 📜 Instructions for making the changes
 ## 1. Editing the Code
 
-Add your `Full name` and `GitHub Username` in the `list[]` given in `lib/contributors.dart`
+Add your `GitHub Username` and `Full name` in the `Map<>` given in `lib/contributors.dart`
 
 *Note: Don't remove or delete already added attendee, in case you did something like this PR won't be accepted :)*
 
 Example Code:
 ```dart
 
-  // < Add your Full Name in the List[] >
-  final contributorsName = [
-    'Muhammad Hamza',
-    'Your Name',
+  //< Add your GitHub Username and your Full Name in the contributer>
+ final Map<String, String> contributors = {
+    'mhmzdev': 'Muhammad Hamza',
+    'shubham9672': 'Shubham Menroy',
+    'your-github-username': 'Your Name',
   ];
 
-  // < Add your GitHub Username in the List[] >
-  final gitHubUserName = [
-    'mhmzdev',
-    'your-github-username',
-  ];
 
 ```
 
