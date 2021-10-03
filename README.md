@@ -1,8 +1,10 @@
-# Hacktoberfest2020 - Flutter Developers
+<h2 align='center'>Hacktoberfest2021 - Flutter Developers</h2>
+
 <br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/43790152/95358188-3503ba80-08e2-11eb-8801-079d151727ff.png" width=270 height=500>
-<img src="https://user-images.githubusercontent.com/43790152/97460381-84c42780-195e-11eb-964b-6e87dd0ff4de.png" width=270 height=500>
+<img src="https://user-images.githubusercontent.com/43790152/135702736-928b134a-0299-4fee-b9da-e6720bbe53d6.jpeg" height=500>
+<img src="https://user-images.githubusercontent.com/43790152/135702741-26502c41-af60-499c-9464-349044eda7d6.jpeg" height=500>
+<img src="https://user-images.githubusercontent.com/43790152/135703199-4dea77e1-810e-4bbe-a9b9-4569f3d822a6.gif" height=500>
 </p>
 
 <p align="center">
