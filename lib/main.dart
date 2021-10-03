@@ -20,8 +20,11 @@ Note: Don't make changes to the app other than what is required, otherwise your 
 */
 
 import 'package:flutter/material.dart';
-import 'package:hacktoberfest_flutter/util/restart_app.dart';
-import 'package:hacktoberfest_flutter/welcome.dart';
+import 'package:hacktoberfest_flutter/ui/util/restart_app.dart';
+import 'package:hacktoberfest_flutter/ui/screens/welcome.dart';
+import 'package:provider/provider.dart';
+
+import 'core/others/github-user-view-model.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,17 +32,24 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RestartWidget(
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Hacktoberfest 2021',
-        theme: ThemeData(
-          primaryColor: Color(0xfff74700),
-          accentColor: const Color(0xfff74700),
+      child: MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (context) => GithubUserViewModel(),
+          )
+        ],
+        child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Hacktoberfest 2021',
+          theme: ThemeData(
+            primaryColor: Color(0xfff74700),
+            accentColor: const Color(0xfff74700),
+          ),
+          initialRoute: '/',
+          routes: {
+            '/': (context) => Welcome(),
+          },
         ),
-        initialRoute: '/',
-        routes: {
-          '/': (context) => Welcome(),
-        },
       ),
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hacktoberfest_flutter/ui/contributors.dart';
+import 'package:hacktoberfest_flutter/ui/screens/contributors-screen.dart';
 
-import 'animations/fade_animation.dart';
+import '../widgets/animations/fade_animation.dart';
 
 /// No changes or updates are required in this file
 class Welcome extends StatefulWidget {
