@@ -7,6 +7,7 @@ class Contributor extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
   final contributorsName = [
+    'Dev Adnani',
     'Muhammad Hamza',
     'Garima Chandna',
     'Keshav Kaushik',
@@ -57,7 +58,6 @@ class Contributor extends StatelessWidget {
     'Akanksha Singh',
     'Praneeth Fernando',
     'Abdullateef Olawale Sarafadeen',
-    'Praneeth Fernando',
     'Kamalpreet Kaur',
     'Harshal Shree',
     'Sohan Kathait',
@@ -83,19 +83,23 @@ class Contributor extends StatelessWidget {
     'Ahmad Khan',
     'Sunday Malgwi',
     'Sanjay Soni',
-    'Atsuvia Marc',
-    'Ariel Roque',
-    'Jean Nshuti',
-    'Suresh Sharma',
+    // 'Atsuvia Marc',
+    // 'Ariel Roque',
+    // 'Jean Nshuti',
+    // 'Suresh Sharma',
     'Michael Dadzie',
     'Zwe Mun Htun',
     'Srishti Vashistha',
     'Neha Ajith',
     'Naveena Ramesh Vardhini ',
-    'Thilina Weerasinghe'
+    'Thilina Weerasinghe',
+    'Muhammad Hilmy AL Jauzy',
+    'Pranav Nair'
+
   ];
 
   final gitHubUserName = [
+    'Dev-Adnani',
     'mhmzdev',
     'garimachandna',
     'keshkaush',
@@ -142,16 +146,18 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
+    '',
     'Akanksha1212',
     'praneethfdo',
+    '',
     'kamal-kaur04',
     'harshalshree',
     'Thesohan',
     'malavikasreekumar',
     'ridaayaz',
     'Nimesha1996',
-    'olaabdul',
-    'praneethfdo',
+    // 'olaabdul',
+    // 'praneethfdo',
     'rmahmadkhan',
     'razorcalhn',
     'zeeshanmahar007',
@@ -171,13 +177,16 @@ class Contributor extends StatelessWidget {
     'rmahmadkhan',
     'malgwi',
     'imSanjaySoni',
-    'cucusgeek99',
+    // 'cucusgeek99',
     'michaeldadzie',
     'zwe-mun-htun',
     'srishtiv27',
     'neha-ajith',
     'naveeramesh',
-    'Thilina1'
+    'Thilina1',
+    'hilmykun',
+    'PranavNair01'
+
   ];
 
   @override
