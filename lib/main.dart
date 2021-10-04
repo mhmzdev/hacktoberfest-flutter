@@ -1,9 +1,9 @@
 /* 
 @Author Muhammad Hamza
-@GitHub m-hamzashakeel
-@Dated: 7th Oct, 2020
+@GitHub mhmzdev
+@Updated Date: 2nd Oct, 2021
 
-Hacktoberfest2020 - Flutter Developers
+Hacktoberfest2021 - Flutter Developers
 --> Welcome to The Flutter Project
 
 Steps:
@@ -20,21 +20,27 @@ Note: Don't make changes to the app other than what is required, otherwise your 
 */
 
 import 'package:flutter/material.dart';
+import 'package:hacktoberfest_flutter/util/restart_app.dart';
 import 'package:hacktoberfest_flutter/welcome.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        accentColor: Color(0xff9c4668)
+    return RestartWidget(
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Hacktoberfest 2021',
+        theme: ThemeData(
+          primaryColor: Color(0xfff74700),
+          accentColor: const Color(0xfff74700),
+        ),
+        initialRoute: '/',
+        routes: {
+          '/': (context) => Welcome(),
+        },
       ),
-      home: Welcome(),
     );
   }
 }
