@@ -7,6 +7,7 @@ class Contributor extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
   final contributorsName = [
+    'Ankit Sagar',
     'Aditya Keshan',
     'Samit Kapoor',
     'Dev Adnani',
@@ -101,6 +102,7 @@ class Contributor extends StatelessWidget {
   ];
 
   final gitHubUserName = [
+    'woinbo',
     'AdityaKeshan',
     'samitkapoor',
     'Dev-Adnani',
