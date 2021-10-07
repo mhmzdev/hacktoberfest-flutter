@@ -1,4 +1,4 @@
-## Name: Sohan Kathait
+## Name: Sneha Sachdeva
 
 **Github:** @Snehaa1203
 
