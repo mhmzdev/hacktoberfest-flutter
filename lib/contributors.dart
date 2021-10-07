@@ -98,7 +98,7 @@ class Contributor extends StatelessWidget {
     'Pranav Nair',
     'Aditya Verma',
     'Het Patel',
-	'Nguyen Khoa',
+	 'Nguyen Khoa',
   ];
 
   final gitHubUserName = [
@@ -192,7 +192,7 @@ class Contributor extends StatelessWidget {
     'PranavNair01',
     'vermastra',
     'whohet',
-	'ntvkhoasgt',
+	 'ntvkhoasgt',
   ];
 
   @override
