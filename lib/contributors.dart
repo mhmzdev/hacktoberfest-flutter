@@ -94,6 +94,7 @@ class Contributor extends StatelessWidget {
     'Neha Ajith',
     'Naveena Ramesh Vardhini ',
     'Muhammad Hilmy AL Jauzy',
+    'Tushar Birdi',
     'Pranav Nair',
     'Aditya Verma'
   ];
@@ -185,6 +186,7 @@ class Contributor extends StatelessWidget {
     'neha-ajith',
     'naveeramesh',
     'hilmykun',
+    'Tusharbirdi'
     'PranavNair01',
     'vermastra'
   ];
