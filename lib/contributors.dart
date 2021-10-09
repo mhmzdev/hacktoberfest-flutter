@@ -103,6 +103,8 @@ class Contributor extends StatelessWidget {
     'Het Patel',
     'Shubham Ahlawat',
     'Sarthak Chandna',
+    'Jash Desai',
+    'Prajjwal mehta', 
     'Anghel Andrei'
   ];
 
@@ -202,7 +204,9 @@ class Contributor extends StatelessWidget {
     'whohet',
     'theselfobsessedgeek',
     'CodeOnnnn',
-    'AnghelAndrei28'
+    'jash-desai',
+    'PRAJJWALmehta',
+    'AnghelAndrei28',
   ];
 
   @override
