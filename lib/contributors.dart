@@ -104,8 +104,8 @@ class Contributor extends StatelessWidget {
     'Shubham Ahlawat',
     'Sarthak Chandna',
     'Jash Desai',
-    'Prajjwal mehta', 
-    
+    'Prajjwal mehta',
+    'Yatendra Kumar'
   ];
 
   final gitHubUserName = [
@@ -206,7 +206,7 @@ class Contributor extends StatelessWidget {
     'CodeOnnnn',
     'jash-desai',
     'PRAJJWALmehta',
-    
+    'yatendra2001'
   ];
 
   @override
