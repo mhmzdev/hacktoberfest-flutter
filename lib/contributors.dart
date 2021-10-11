@@ -107,6 +107,7 @@ class Contributor extends StatelessWidget {
     'Jash Desai',
     'Prajjwal mehta', 
     'Saif M. Al-Ansari', 
+    'Shathurshan Ravi', 
     
   ];
 
@@ -210,6 +211,7 @@ class Contributor extends StatelessWidget {
     'jash-desai',
     'PRAJJWALmehta',
     'Saif2nsari',
+    'shathurshan'
     
   ];
 
