@@ -1,0 +1,3 @@
+Name: Parames Chotana
+GitHub: ULTIM4TE-DEV
+Quote: DEADLINE IS FASTER THAN KARMA
