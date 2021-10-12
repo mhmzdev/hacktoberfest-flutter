@@ -7,6 +7,8 @@ class Contributor extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
   final contributorsName = [
+    'Harsh Soni',
+    'Luki Sanjaya',
     'Sagar Shah',
     'Ankit Sagar',
     'Aditya Keshan',
@@ -104,11 +106,15 @@ class Contributor extends StatelessWidget {
     'Shubham Ahlawat',
     'Sarthak Chandna',
     'Jash Desai',
-    'Thirawat Prasert'
     'Prajjwal mehta', 
+    'Prajjwal mehta',
+    'Saif M. Al-Ansari',
+    'Thirawat Prasert'
   ];
 
   final gitHubUserName = [
+    'cscipher',
+    'lukisanjaya',
     'sagar98cyber',
     'woinbo',
     'AdityaKeshan',
@@ -205,8 +211,9 @@ class Contributor extends StatelessWidget {
     'theselfobsessedgeek',
     'CodeOnnnn',
     'jash-desai',
-    'thirw'
     'PRAJJWALmehta',
+    'Saif2nsari',
+    'thirw',
   ];
 
   @override
