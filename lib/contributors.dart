@@ -110,7 +110,7 @@ class Contributor extends StatelessWidget {
     'Prajjwal mehta',
     'Saif M. Al-Ansari',
     'Jacob Ranjit',
-    'Abdurrahman',
+    'AbdurRahman ',
   ];
 
   final gitHubUserName = [
