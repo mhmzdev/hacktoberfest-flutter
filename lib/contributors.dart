@@ -7,6 +7,14 @@ class Contributor extends StatelessWidget {
   // Add your Full Name in this list
   // Please do not remove any other name :)
   final contributorsName = [
+    'kartikey singh',
+    'Harsh Soni',
+    'Luki Sanjaya',
+    'Sagar Shah',
+    'Ankit Sagar',
+    'Aditya Keshan',
+    'Avishek Kr Sharma',
+    'Samit Kapoor',
     'Dev Adnani',
     'Muhammad Hamza',
     'Garima Chandna',
@@ -58,7 +66,6 @@ class Contributor extends StatelessWidget {
     'Akanksha Singh',
     'Praneeth Fernando',
     'Abdullateef Olawale Sarafadeen',
-    'Praneeth Fernando',
     'Kamalpreet Kaur',
     'Harshal Shree',
     'Sohan Kathait',
@@ -84,10 +91,10 @@ class Contributor extends StatelessWidget {
     'Ahmad Khan',
     'Sunday Malgwi',
     'Sanjay Soni',
-    'Atsuvia Marc',
-    'Ariel Roque',
-    'Jean Nshuti',
-    'Suresh Sharma',
+    // 'Atsuvia Marc',
+    // 'Ariel Roque',
+    // 'Jean Nshuti',
+    // 'Suresh Sharma',
     'Michael Dadzie',
     'Zwe Mun Htun',
     'Srishti Vashistha',
@@ -95,9 +102,30 @@ class Contributor extends StatelessWidget {
     'Naveena Ramesh Vardhini '
     'Muhammad Hilmy AL Jauzy'
     'Muhammad Yaasiin Hidayatulloh'
+    'Naveena Ramesh Vardhini ',
+    'Muhammad Hilmy AL Jauzy',
+    'Pranav Nair',
+    'Aditya Verma',
+    'Het Patel',
+    'Shubham Ahlawat',
+    'Sarthak Chandna',
+    'Jash Desai',
+    'Prajjwal mehta',
+    'Saif M. Al-Ansari',
+    'Jai Aravindh',
+    'Jacob Ranjit',
+    'Ivan V.R'
   ];
 
   final gitHubUserName = [
+    'kartikey4474',
+    'cscipher',
+    'lukisanjaya',
+    'sagar98cyber',
+    'woinbo',
+    'AdityaKeshan',
+    'kshitij5',
+    'samitkapoor',
     'Dev-Adnani',
     'mhmzdev',
     'garimachandna',
@@ -145,16 +173,18 @@ class Contributor extends StatelessWidget {
     'LondonTran',
     'AdityaBirangal',
     'sainiteshb',
+    '',
     'Akanksha1212',
     'praneethfdo',
+    '',
     'kamal-kaur04',
     'harshalshree',
     'Thesohan',
     'malavikasreekumar',
     'ridaayaz',
     'Nimesha1996',
-    'olaabdul',
-    'praneethfdo',
+    // 'olaabdul',
+    // 'praneethfdo',
     'rmahmadkhan',
     'razorcalhn',
     'zeeshanmahar007',
@@ -174,7 +204,7 @@ class Contributor extends StatelessWidget {
     'rmahmadkhan',
     'malgwi',
     'imSanjaySoni',
-    'cucusgeek99',
+    // 'cucusgeek99',
     'michaeldadzie',
     'zwe-mun-htun',
     'srishtiv27',
@@ -182,6 +212,19 @@ class Contributor extends StatelessWidget {
     'naveeramesh'
         'hilmykun'
     'myaasiinh'
+    'naveeramesh',
+    'hilmykun',
+    'PranavNair01',
+    'vermastra',
+    'whohet',
+    'theselfobsessedgeek',
+    'CodeOnnnn',
+    'jash-desai',
+    'PRAJJWALmehta',
+    'Saif2nsari',
+    'JaiAravindh-git',
+    'Jcupzz',
+    'IvanitiX',
   ];
 
   @override
