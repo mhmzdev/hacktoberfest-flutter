@@ -99,6 +99,9 @@ class Contributor extends StatelessWidget {
     'Zwe Mun Htun',
     'Srishti Vashistha',
     'Neha Ajith',
+    'Naveena Ramesh Vardhini '
+    'Muhammad Hilmy AL Jauzy'
+    'Muhammad Yaasiin Hidayatulloh'
     'Naveena Ramesh Vardhini ',
     'Muhammad Hilmy AL Jauzy',
     'Pranav Nair',
@@ -111,7 +114,7 @@ class Contributor extends StatelessWidget {
     'Saif M. Al-Ansari',
     'Jai Aravindh',
     'Jacob Ranjit',
-    'Ivan V.R',
+    'Ivan V.R'
   ];
 
   final gitHubUserName = [
@@ -206,6 +209,9 @@ class Contributor extends StatelessWidget {
     'zwe-mun-htun',
     'srishtiv27',
     'neha-ajith',
+    'naveeramesh'
+        'hilmykun'
+    'myaasiinh'
     'naveeramesh',
     'hilmykun',
     'PranavNair01',

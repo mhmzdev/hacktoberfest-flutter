@@ -65,14 +65,14 @@ Example Code:
 Create a markdown file in your folder following the convention `participant/<GitHub-Username>.md`.
 
 ```dart
-participant/<YOUR-USERNAME>.md/
+participant/<myaasiinh>.md/
 ```
 
 Copy the next template into your file, delete the data and fill the information with yours.
 
 ```
-Name: YOURNAME
-GitHub: USERNAME
+Name: Muhammad Yaasiin Hidayatulloh
+GitHub: myaasiinh
 Quote: <Any Good Quote>
 ```
 
