@@ -4,7 +4,7 @@ class CircleButton extends StatelessWidget {
   final IconData icon;
   final double iconSize;
   final Function onPressed;
-  final Color? highlightColor;
+  final Color highlightColor;
 
   const CircleButton({
     Key? key,

@@ -1,3 +1,5 @@
+## ⚠️ UPDATED: THIS REPO IS NO MORE APPLICABLE FOR HACKTOBERFEST!
+
 <h2 align='center'>Hacktoberfest2021 - Flutter Developers</h2>
 
 <br>

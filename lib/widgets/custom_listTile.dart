@@ -6,8 +6,8 @@ class CustomListTile extends StatelessWidget {
   final String contributorName;
   final String contributorGitHubUserName;
   CustomListTile(
-      {@required this.contributorGitHubUserName,
-      @required this.contributorName});
+      {required this.contributorGitHubUserName,
+      required this.contributorName});
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
