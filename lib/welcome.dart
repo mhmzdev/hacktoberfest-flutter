@@ -10,15 +10,15 @@ class Welcome extends StatefulWidget {
 
 class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
   // ANIMATION
-  AnimationController _scaleController;
-  AnimationController _scaleController2;
-  AnimationController _widthController;
-  AnimationController _positionController;
+  late AnimationController _scaleController;
+  late AnimationController _scaleController2;
+  late AnimationController _widthController;
+  late AnimationController _positionController;
 
-  Animation<double> _scaleAnimation;
-  Animation<double> _scale2Animation;
-  Animation<double> _widthAnimation;
-  Animation<double> _positionAnimation;
+  late Animation<double> _scaleAnimation;
+  late Animation<double> _scale2Animation;
+  late Animation<double> _widthAnimation;
+  late Animation<double> _positionAnimation;
 
   bool hideIcon = false;
   @override
