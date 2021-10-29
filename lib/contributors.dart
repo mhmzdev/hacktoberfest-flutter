@@ -107,7 +107,8 @@ class Contributor extends StatelessWidget {
     'Shubham Ahlawat',
     'Sarthak Chandna',
     'Jash Desai',
-    'Prajjwal mehta',
+    'Irvan Alfaridzi'
+    'Prajjwal mehta', 
     'Saif M. Al-Ansari',
     'Jai Aravindh',
     'Jacob Ranjit',
@@ -214,6 +215,7 @@ class Contributor extends StatelessWidget {
     'theselfobsessedgeek',
     'CodeOnnnn',
     'jash-desai',
+    'irvanalfaridzi'
     'PRAJJWALmehta',
     'Saif2nsari',
     'JaiAravindh-git',
