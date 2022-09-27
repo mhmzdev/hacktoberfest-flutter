@@ -85,7 +85,7 @@ class _WelcomeState extends State<Welcome> with TickerProviderStateMixin {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
-              child: Image.asset('assets/banner2021.png'),
+              child: Image.asset('assets/banner2022.png'),
             ),
             FadeAnimation(
                 1.6,

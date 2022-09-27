@@ -248,7 +248,7 @@ class Contributor extends StatelessWidget {
               ),
               background: Center(
                 child: Image.asset(
-                  'assets/banner2021.png',
+                  'assets/banner2022.png',
                   height: 180.0,
                 ),
               ),
