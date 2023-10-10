@@ -18,7 +18,7 @@ bool isDarkMode = false;
 class MyTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
         primarySwatch: colorList[Random().nextInt(colorList.length)],
-        accentColor: Colors.white,
+        hintColor: Colors.white,
         // splashColor: Colors.transparent,
         fontFamily: GoogleFonts.poppins().fontFamily,
         canvasColor: Colors.white,
